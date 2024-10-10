@@ -1,39 +1,42 @@
-const fs = require('fs');
-const path = require('path');
+const url = 'BACKLOG.TXT'; 
 
-const backlogFile = path.join(__dirname, 'BACKLOG.TXT');
-const indexFilePath = path.join(__dirname, 'index.html');
-
-fs.readFile(inputFilePath, 'utf8', (err, data) => {
-    if (err) {
-        console.error('Error reading the file:', err);
-        return;
+fetch(url)
+.then(response => {
+    if (!response.ok) {
+        throw new Error('Network response was not ok ' + response.statusText);
     }
-
+    const modifiedDate = response.headers.get('Last-Modified');
+    document.getElementById('lastModified').textContent = 'Last modified: ' + modifiedDate;
+    return response.text();
+})
+.then(data => {
     const lines = data.split('\n');
     let currentSection = '';
     const sections = {
-        'Currently In progress:': [],
+        'Currently in progress:': [],
         'In hiatus:': [],
-        'Backlog:': []
+        'Backlog:': [],
+        'Other platforms:': []
     };
 
     lines.forEach(line => {
-        if (line.startsWith('Currently In progress:')) {
-            currentSection = 'Currently In progress:';
+        if (line.startsWith('Currently in progress:')) {
+            currentSection = 'Currently in progress:';
         } else if (line.startsWith('In hiatus:')) {
             currentSection = 'In hiatus:';
         } else if (line.startsWith('Backlog:')) {
             currentSection = 'Backlog:';
+        } else if (line.startsWith('Other platforms:')) {
+            currentSection = 'Other platforms:';
         } else if (line.startsWith('-') && currentSection) {
-            sections[currentSection].push(line);
+            sections[currentSection].push(line.substring(2).trim());
         }
     });
 
     const htmlContent = `
     <h1>Currently In progress:</h1>
     <ul>
-        ${sections['Currently In progress:'].map(item => `<li>${item}</li>`).join('')}
+        ${sections['Currently in progress:'].map(item => `<li>${item}</li>`).join('')}
     </ul>
     <h1>In hiatus:</h1>
     <ul>
@@ -43,22 +46,14 @@ fs.readFile(inputFilePath, 'utf8', (err, data) => {
     <ul>
         ${sections['Backlog:'].map(item => `<li>${item}</li>`).join('')}
     </ul>
+    <h1>Other platforms:</h1>
+    <ul>
+        ${sections['Other platforms:'].map(item => `<li>${item}</li>`).join('')}
+    </ul>
     `;
 
-    fs.readFile(indexFilePath, 'utf8', (err, indexData) => {
-        if (err) {
-            console.error('Error reading the index.html file:', err);
-            return;
-        }
-
-        const updatedIndexData = indexData.replace('</body>', `${htmlContent}</body>`);
-
-        fs.writeFile(indexFilePath, updatedIndexData, 'utf8', err => {
-            if (err) {
-                console.error('Error writing the index.html file:', err);
-                return;
-            }
-            console.log('HTML content has been added to index.html successfully.');
-        });
-    });
+    document.querySelector('footer').insertAdjacentHTML('beforebegin', htmlContent);
+})
+.catch(error => {
+    console.error('There was a problem with the fetch operation:', error);
 });
