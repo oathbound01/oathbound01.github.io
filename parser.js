@@ -1,4 +1,4 @@
-const url = 'BACKLOG.TXT'; 
+const url = 'BACKLOG.txt'; 
 
 fetch(url)
 .then(response => {
