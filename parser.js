@@ -34,7 +34,7 @@ fetch(url)
     });
 
     const htmlContent = `
-    <h1>Currently In progress:</h1>
+    <h1>Currently in progress:</h1>
     <ul>
         ${sections['Currently in progress:'].map(item => `<li>${item}</li>`).join('')}
     </ul>
