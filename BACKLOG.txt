@@ -67,7 +67,6 @@ Backlog:
 - Shadowrun: Dragonfall
 - Shadowrun: Hong Kong
 - RAGE
-- PREY
 - Halo Reach
 - Halo Combat Evolved
 - Halo 2
