@@ -1,6 +1,5 @@
 Currently in progress:
 
-- Tyranny
 - Quake
 - Wayfinder
 
