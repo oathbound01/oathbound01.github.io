@@ -34,22 +34,26 @@ fetch(url)
     });
 
     const htmlContent = `
-    <h1>Currently in progress:</h1>
+    <hr class="cs-hr" />
+    <h1>Currently in progress</h1>
     <ul>
         ${sections['Currently in progress:'].map(item => `<li>${item}</li>`).join('')}
     </ul>
-    <h1>In hiatus:</h1>
+    <hr class="cs-hr" />
+    <h1>In hiatus</h1>
     <ul>
         ${sections['In hiatus:'].map(item => `<li>${item}</li>`).join('')}
     </ul>
-    <h1>Backlog:</h1>
+    <hr class="cs-hr" />
+    <h1>Backlog</h1>
     <ul>
         ${sections['Backlog:'].map(item => `<li>${item}</li>`).join('')}
     </ul>
-    <h1>Other platforms:</h1>
-    <ul>
+    <hr class="cs-hr" />
+    <h1>Other platforms</h1>
         ${sections['Other platforms:'].map(item => `<li>${item}</li>`).join('')}
     </ul>
+    <hr class="cs-hr" />
     `;
 
     document.querySelector('footer').insertAdjacentHTML('beforebegin', htmlContent);
