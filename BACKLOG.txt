@@ -2,6 +2,7 @@ Currently in progress:
 
 - Quake
 - Wayfinder
+- Neverwinter Nights: Wyvern Crown of Cormyr
 
 In hiatus:
 
@@ -83,4 +84,4 @@ Other platforms:
 - Yakuza 0 (PS4)
 - Pokemon Black 2 (DS)
 - MadWorld (Wii U)
-- MONSTER HUNTER 3 ULTIMATE (Wii U)
+- Monster Hunter Generations Ultimate (Switch)
