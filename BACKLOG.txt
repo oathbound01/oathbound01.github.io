@@ -1,7 +1,6 @@
 Currently in progress:
 
 - Quake
-- Wayfinder
 - Neverwinter Nights: Wyvern Crown of Cormyr
 
 In hiatus:
@@ -17,6 +16,7 @@ In hiatus:
 - Serious Sam: The First Encounter
 - Rayman Origins
 - Jet Set Radio
+- Wayfinder
 
 Backlog:
 
@@ -84,4 +84,4 @@ Other platforms:
 - Yakuza 0 (PS4)
 - Pokemon Black 2 (DS)
 - MadWorld (Wii U)
-- Monster Hunter Generations Ultimate (Switch)
+- Monster Hunter Freedom Unite (PS3)
