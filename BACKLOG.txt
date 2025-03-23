@@ -2,6 +2,7 @@ Currently in progress:
 
 - Quake
 - Neverwinter Nights: Doom of Icewind Dale
+- Warhammer 40k: Rogue Trader
 
 In hiatus:
 
@@ -25,7 +26,6 @@ Backlog:
 - Dark Messiah of Might and Magic
 - Gothic
 - Pentiment
-- Warhammer 40k: Rogue Trader
 - Warhammer 40k: Dawn of War
 - Warhammer 40k: Fire Warrior
 - Space Hulk: Deathwing
