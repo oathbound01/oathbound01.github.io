@@ -23,6 +23,7 @@ Backlog:
 
 - Vampire: The Masquerade - Bloodlines
 - Alan Wake
+- Star Wars Jedi: Fallen Order
 - Dark Messiah of Might and Magic
 - Gothic
 - Pentiment
@@ -78,10 +79,9 @@ Backlog:
 
 Other platforms:
 
-- Baldur's Gate: Dark Alliance (PS2)
-- Shovel Knight: Treasure Trove (3DS)
 - Pokémon Y (3DS)
 - Yakuza 0 (PS4)
 - Pokemon Black 2 (DS)
 - MadWorld (Wii U)
 - Monster Hunter Freedom Unite (PS3)
+- Monster Hunter Tri (Wii)
