@@ -1,7 +1,6 @@
 Currently in progress:
 
 - Quake
-- Neverwinter Nights: Doom of Icewind Dale
 - Warhammer 40k: Rogue Trader
 - Clair Obscur: Expedition 33
 
@@ -18,7 +17,6 @@ In hiatus:
 - Serious Sam: The First Encounter
 - Rayman Origins
 - Jet Set Radio
-- Wayfinder
 
 Backlog:
 
