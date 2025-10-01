@@ -1,6 +1,5 @@
 Currently in progress:
 
-- Quake
 - Warhammer 40k: Rogue Trader
 
 In hiatus:
@@ -8,7 +7,6 @@ In hiatus:
 - The Great Ace Attorney
 - Kingdom Come: Deliverance
 - Baba is You
-- Planescape: Torment
 - Neverwinter Nights: Tyrants of the Moonsea
 - Divinity: Original Sin II
 - Wasteland 2
@@ -16,6 +14,7 @@ In hiatus:
 - Serious Sam: The First Encounter
 - Rayman Origins
 - Jet Set Radio
+- Quake
 
 Backlog:
 
@@ -81,5 +80,5 @@ Other platforms:
 - Yakuza 0 (PS4)
 - Pokemon Black 2 (DS)
 - MadWorld (Wii U)
-- Monster Hunter Freedom Unite (PS3)
 - Monster Hunter Tri (Wii)
+- Paper Mario: The Thousand Year Door (Wii U)
