@@ -1,7 +1,9 @@
 Currently in progress:
 
 - Warhammer 40k: Rogue Trader
-- ANTONBLAST
+- Icewind Dale II
+- Warhammer 40k: Boltgun
+- Hades
 
 In hiatus:
 
@@ -15,6 +17,8 @@ In hiatus:
 - Rayman Origins
 - Jet Set Radio
 - Quake
+- ANTONBLAST
+- Gothic
 
 Backlog:
 
@@ -23,7 +27,6 @@ Backlog:
 - Max Payne 2
 - Star Wars Jedi: Fallen Order
 - Dark Messiah of Might and Magic
-- Gothic
 - Pentiment
 - Warhammer 40k: Dawn of War
 - Warhammer 40k: Fire Warrior
@@ -48,7 +51,6 @@ Backlog:
 - Far Cry 2
 - Half-Life
 - Half-Life 2
-- Icewind Dale II
 - Rayman 3: Hoodlum Havoc
 - Rayman Legends
 - Wasteland 3
