@@ -1,6 +1,5 @@
 Currently in progress:
 
-- Warhammer 40k: Boltgun
 - Assassin's Creed IV: Black Flag
 - The Temple of Elemental Evil
 
