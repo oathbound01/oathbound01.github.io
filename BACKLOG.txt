@@ -1,11 +1,10 @@
 Currently in progress:
 
-- Max Payne 2
 - Neverwinter Nights 2: Mysteries of Westgate
+- Esoteric Ebb
 
 In hiatus:
 
-- Esoteric Ebb
 - The Great Ace Attorney
 - Neverwinter Nights: Tyrants of the Moonsea
 - Divinity: Original Sin II
@@ -22,6 +21,7 @@ In hiatus:
 
 Backlog:
 
+- Max Payne 2
 - Vampire: The Masquerade - Bloodlines
 - Alan Wake
 - Grim Dawn: Ashes of Malmouth
